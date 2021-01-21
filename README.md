@@ -1,3 +1,6 @@
 # repo1
-first repo
-description
+Java Project
+
+# Purpose
+Create Management System
+# Yay
