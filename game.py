@@ -1,1 +1,1 @@
-print("Game Start")
+print("Game Start!")
