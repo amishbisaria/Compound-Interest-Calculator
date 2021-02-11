@@ -1,3 +1,3 @@
-# Python Game
+# Website Experiment
 
-Implement game with gui
+Learning HTML, CSS, and JavaScript basics
