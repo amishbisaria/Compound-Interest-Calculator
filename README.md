@@ -1,3 +1,3 @@
-# Website Experiment
+# Compound Interest Calculator
 
-Learning HTML, CSS, and JavaScript basics
+Calculates compound interest given initial amound, interest rate, time invested, and how often interest is applied.
