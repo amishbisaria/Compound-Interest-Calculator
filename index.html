@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--set meta and connect css-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Investment Calculator</title>
+  </head>
+  <body>
+    <!--title-->
+    <div class="container1">
+      <h1>Compound Interest</h1>
+      <h1>Investment Calculator</h1>
+    </div>
+    <!--calculator-->
+    <div class="container2">
+      <h2>Calculate your compound interest below!</h2>
+      <p>
+        Initial Amount Invested:
+        <br />
+        <input id="initial" type="number" value="100" />
+        $
+      </p>
+      <p>
+        Interest Rate (in percent):
+        <br />
+        <input id="interest" type="number" value="5" />
+        %
+      </p>
+      <p>
+        Time Invested (any units):
+        <br />
+        <input id="time" type="number" value="24" />
+      </p>
+      <p>
+        Number of times interest applied per unit:
+        <br />
+        <input id="compound" type="number" value="2" />
+      </p>
+      <button type="button" class="calculate">Calculate</button>
+      <h2 id="compoundInterest">Compound Interest: N/A</h2>
+      <h2 id="total">Total: N/A</h2>
+    </div>
+    <!--connect js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="rest.js"></script>
+    <!--<script src="app.js"></script>-->
+  </body>
+</html>
